@@ -8,7 +8,7 @@ then
 	git add .
 	git commit -m "first repository"
 	git checkout main
-	git config --global remote.origin.url https://oauth2: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@github.com/Pakas142/guvi-task-round1.git
+	git config --global remote.origin.url https://oauth2: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@github.com/Pakas142/guvi-task-round1.git
 	git push origin main
 else
 	git init
@@ -16,6 +16,6 @@ else
 	git add .
 	git commit -m "first repository"
 	git checkout -b develop
-	git config --global remote.origin.url https://oauth2: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@github.com/Pakas142/guvi-task-round1.git
+	git config --global remote.origin.url https://oauth2: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@github.com/Pakas142/guvi-task-round1.git
 	git push origin develop
 fi
