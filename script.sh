@@ -7,7 +7,7 @@ then
 	tar -cf welcome.tar *.*
 	git add .
 	git commit -m "first repository"
-	git checkout -b main master
+	git checkout main master
 	git config --global remote.origin.url https://oauth2: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@github.com/Pakas142/guvi-task-round1.git
 	git push origin main
 else
