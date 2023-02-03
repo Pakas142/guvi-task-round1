@@ -8,6 +8,7 @@ then
 	tar -cf welcome.tar *.*
 	git add .
 	git commit -m "first repository"
+	git checkout -b main master
 	git push origin main
 else
 	git init
