@@ -1,4 +1,4 @@
-echo "give 1 or 1" | read var1
+read var1
 read var2
 if [ $var1 -eq $var2 ]
 then
