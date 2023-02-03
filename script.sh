@@ -7,8 +7,8 @@ then
 	tar -cf welcome.tar *.*
 	git add .
 	git commit -m "first repository"
-	git config --global remote.origin.url https://oauth2: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@github.com/Pakas142/guvi-task-round1.git
 	git checkout main
+	git config --global remote.origin.url https://oauth2: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@github.com/Pakas142/guvi-task-round1.git
 	git push origin main
 else
 	git init
